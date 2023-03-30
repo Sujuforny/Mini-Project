@@ -110,3 +110,33 @@ footer{
     text-align: center;
     margin-top: 50px;
 }
+@media (max-width:700px){
+    .form>form{
+        width: 300px;
+    }
+    .email>input{
+        width: 250px;
+
+    }
+    .password>input{
+        width: 250px;
+
+    }
+    .first>input{
+        width: 250px;
+
+    }
+    .last>input{
+
+        width: 250px;
+
+    }
+    .button>button:first-child{
+
+        margin-top: 30px;
+        height: 45px;
+    }
+    .button>button:last-child{
+        margin-left: 5px;
+    }
+}
