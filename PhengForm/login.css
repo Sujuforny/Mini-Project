@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    transition: 2s;
+}
+nav{
+    width: inherit;
+    text-align: center;
+    margin-top: 10px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+}
+.form>form{
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 1px 1px 4px 1px lightgray;
+    border-radius: 20px;
+}
+.passforgotten{
+    margin-top: 20px;
+    position: relative;
+    right: 90px;
+}
+nav>h1>a{
+    color: rgb(36, 123, 94);
+}
+nav>h1>a:hover{
+    color: rgb(36, 123, 94);
+}
+.button>button>a{
+    text-decoration: none;
+    color: black;
+}
+.form>form>div{
+    text-align: center;
+    margin-top: 20px;
+}
+.email>input{
+    margin-top: 20px;
+    height: 45px;
+    border: none;
+    width: 300px;
+    box-shadow: 1px 1px 4px 1px rgb(188, 193, 198);
+    border-radius: 20px;
+}
+.password>input{
+    margin-top: 30px;
+    height: 45px;
+    border: none;
+    width: 300px;
+    box-shadow: 1px 1px 4px 1px rgb(188, 193, 198);
+    border-radius: 20px;
+}
+.button>button:first-child{
+    margin-left: 0px;
+    margin-top: 30px;
+    width: 120px;
+    border: none;
+    border-radius: 20px;
+    height: 45px;
+    box-shadow: 1px 1px 4px 1px rgb(188, 193, 198);
+    background:white;
+}
+.button>button:last-child{
+    margin-left: 53px;
+    margin-top: 30px;
+    width: 120px;
+    border: none;
+    border-radius: 20px;
+    height: 45px;
+    box-shadow: 1px 1px 4px 1px rgb(188, 193, 198);
+    background:white;
+}
+.button>button:first-child{
+    font-weight: 200px;
+    font-size: 15px;
+}
+.button>button:last-child{
+    color: white;
+    font-weight: 150;
+    font-size: 15px;
+    background-color: rgb(36, 123, 94);
+}
+footer{
+    width: inherit;
+    height: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
