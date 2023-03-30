@@ -24,6 +24,7 @@ nav{
     height: 500px;
     box-shadow: 1px 1px 4px 1px lightgray;
     border-radius: 20px;
+    border: 1px solid rgb(170, 209, 170);
 }
 .passforgotten{
     margin-top: 20px;
@@ -98,8 +99,7 @@ footer{
     text-align: center;
     margin-top: 50px;
 }
-
-@media (max-width:400px){
+@media (max-width:576px){
     .form>form{
         width: 300px;
     }
