@@ -10,7 +10,7 @@ body{
 nav{
     width: inherit;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 .form{
     display: flex;
@@ -26,28 +26,19 @@ nav{
     border-radius: 20px;
     border: 1px solid rgb(170, 209, 170);
 }
-.passforgotten{
-    margin-top: 20px;
-    position: relative;
-    right: 90px;
-}
 nav>h1>a{
     color: rgb(36, 123, 94);
 }
 nav>h1>a:hover{
     color: rgb(36, 123, 94);
 }
-.button>button>a{
-    text-decoration: none;
-    color: black;
-}
 .form>form>div{
     text-align: center;
     margin-top: 20px;
 }
 .email>input{
-    margin-top: 30px;
     padding: 0 20px;
+    margin-top: 30px;
     height: 45px;
     border: none;
     width: 300px;
@@ -55,8 +46,26 @@ nav>h1>a:hover{
     border-radius: 20px;
 }
 .password>input{
-    margin-top: 30px;
     padding: 0 20px;
+    margin-top: 30px;
+    height: 45px;
+    border: none;
+    width: 300px;
+    box-shadow: 1px 1px 4px 1px rgb(188, 193, 198);
+    border-radius: 20px;
+}
+.first>input{
+    padding: 0 20px;
+    margin-top: 30px;
+    height: 45px;
+    border: none;
+    width: 300px;
+    box-shadow: 1px 1px 4px 1px rgb(188, 193, 198);
+    border-radius: 20px;
+}
+.last>input{
+    padding: 0 20px;
+    margin-top: 30px;
     height: 45px;
     border: none;
     width: 300px;
@@ -93,6 +102,9 @@ nav>h1>a:hover{
     font-size: 15px;
     background-color: rgb(36, 123, 94);
 }
+.button>button>a{
+    text-decoration: none;
+}
 footer{
     width: inherit;
     height: 50px;
@@ -127,10 +139,5 @@ footer{
     }
     .button>button:last-child{
         margin-left: 5px;
-    }
-    .passforgotten{
-        margin-top: 20px;
-        position: relative;
-        right: 65px;
     }
 }
