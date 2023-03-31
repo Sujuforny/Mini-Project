@@ -592,31 +592,36 @@ footer .copyright{
         flex-direction: column;
     }
     #contact-details .details {
-       width: 100%;
+       width: 100% !important;
        margin-bottom: 30px;
     }
     #contact-details .map {
-        width: 100%;
-       margin: 0;
+        width: 100% !important;
+        margin: 0;
     }
     #form-details {
+        flex-direction: column;
         margin: 10px;
-        padding: 80px;
-      
+        padding: 0 !important;
+    }
+    #form-details form {
+        width: 100% !important;
+    }
+    #form-details .people div {
+        margin-top: 30px;
     }
     /* cart page */
     #cart-add {
         flex-direction: column;
     }
     #coupon{
-        width: 100%;
+      width: 100% !important;
     }
     #subtotal{
-        width: 100%;
+        width: 100% !important;
         padding: 20px;
     }
 }
-
 
 
 
@@ -982,7 +987,6 @@ footer .copyright{
    text-transform: uppercase;
    font-size: 13px;
    padding: 18px 0;
-    
 }
 #cart table tbody tr td{
     
@@ -997,7 +1001,7 @@ footer .copyright{
     justify-content: space-between;
 }
 #coupon {
-    width: 50%;
+    width: 100%;
     margin-bottom: 30px;
 }
 #coupon h3,
@@ -1064,5 +1068,5 @@ footer .copyright{
     
 }
 .single-pro-details h6.hi:hover{
-     background-color:#bebec2;
+    background-color:#bebec2;
 }
