@@ -4,7 +4,7 @@
 }
 
 body{
-    height: 100vh;
+    height: 0vh;
     transition: 2s;
 }
 nav{
@@ -16,7 +16,9 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -50px;
+}
+.des>h1{
+  font-weight: 400;
 }
 .form>form{
     margin-top: 100px;
@@ -97,7 +99,7 @@ footer{
     width: inherit;
     height: 50px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 230px;
 }
 @media (max-width:576px){
     .form>form{
