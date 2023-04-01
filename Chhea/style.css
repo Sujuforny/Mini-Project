@@ -1,0 +1,57 @@
+
+@media (max-width: 1200px) {
+    .text-text h2{
+        font-size: 27px;
+        font-weight: 100px;
+        /* background-color: aqua; */
+     }
+     .section-padding h1{
+        font-size: 25px;
+     }
+  
+}
+@media (max-width: 900px) {
+    .text-text h2{
+        font-size: 27px;
+        font-weight: 100px;
+        /* background-color: aqua; */
+     }
+     .section-padding h1{
+        font-size: 25px;
+     }
+  
+}
+@media  (max-width: 700px) {
+    .text-text h2{
+       font-size: 20px;
+       text-align: center;
+       /* background-color: aqua; */
+    }
+    /* .text-text {
+          display: none;
+     } */
+     
+    
+    .text-text p{
+        font-size: 15px;
+         /* background-color: aqua; */
+     }
+     .section-padding h1{
+        font-size: 20px;
+     }
+  
+  }
+  @media (max-width: 500px) {
+    .section-padding h1{
+        font-size: 17px;
+     }
+     #about-header img{
+        width: 70%;
+     }
+    
+    .text-text p{
+        font-size: 17px;
+         /* background-color: aqua; */
+     }
+    
+  }
