@@ -7,19 +7,20 @@
     <link rel="stylesheet" href="css/styless.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css">
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/10265/10265640.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <title>CNPR Shop</title>
 </head>
 <body>
     <section id="header">
         <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
         <div>
-            <ul id="navbar">
+            <ul id="navbar" class="fix-header">
                 <li><a href="index.html" class="active">home</a></li>
                 <li><a href="shop.html">shop</a></li>
                 <li><a href="blog.html">blog</a></li>
                 <li><a href="about.html">about</a></li>
                 <li><a href="contact.html">contact</a></li>
-                <li id="list-close"><a href="cart.html"><i class="bi bi-bag"></i></a></li>
+                <li id="list-close"><a href="login.html"><i class="bi bi-person-circle"></i></a></li>
                 <a href="#" id="close"><i class="bi bi-x "></i></a>
             </ul>
         </div>
@@ -37,8 +38,7 @@
             Khmer New Year</p>
         <button>Shop now</button>
     </section>
-
-    <section id="feature" class="section-padding">
+    <section id="feature" class="section-padding small-sreccn-none">
         <div class="box">
             <img src="img/features/f1.png" alt="">
             <h6>Free Shipping</h6>
@@ -64,7 +64,66 @@
             <h6>F24/7 Support</h6>
         </div>     
     </section>
-
+    <hr class="home-page">
+    <section>
+        <div id="carouselExampleDark" class="slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <div class="box feature-padding">
+                        <img src="img/features/f1.png" alt="">
+                        <h6>Free Shipping</h6>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="box feature-padding">
+                        <img src="img/features/f2.png" alt="">
+                        <h6 class="f2">Online Order</h6>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="box feature-padding">
+                        <img src="img/features/f3.png" alt="">
+                        <h6 class="f3">Save Money</h6>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="box feature-padding">
+                        <img src="img/features/f4.png" alt="">
+                        <h6 class="f4">Promotions</h6>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="box feature-padding">
+                        <img src="img/features/f5.png" alt="">
+                        <h6 class="f5">Happy Sell</h6>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="box feature-padding">
+                        <img src="img/features/f6.png" alt="">
+                        <h6 class="f6">F24/7 Support</h6>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+<hr class="home-page">
     <section id="product1" class="section-padding">
         <h2>Feature Products</h2>
         <p>Summer Collection New Morden Design</p>
@@ -404,6 +463,6 @@
 
 
     <script src="js/javaS.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
