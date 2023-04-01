@@ -686,7 +686,7 @@ footer .copyright{
     padding: 14px;
 }
 #page-header>h2, #page-header>p{
-    color: rgb(218, 218, 218);
+    color: rgb(255, 255, 255);
     opacity: 100px;
 }
 /* end pages header */
@@ -843,8 +843,6 @@ footer .copyright{
     color: #cce7d0;
     z-index: -9;
 }
-
-
 
 
 
