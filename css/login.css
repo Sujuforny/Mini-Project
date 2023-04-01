@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -109,6 +110,11 @@ footer{
     height: 50px;
     text-align: center;
     margin-top: 230px;
+}
+footer p{
+    font-size: 16px;
+    margin: 15px 0 20px 0;
+    color: rgb(80, 79, 79);
 }
 @media (max-width:576px){
     .form>form{
